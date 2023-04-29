@@ -1,0 +1,185 @@
+
+Q1. Python is called a general-purpose programming language because it is designed to be used for a wide range of applications, including web development, scientific computing, data analysis, artificial intelligence, machine learning, and more. It is also called a high-level programming language because it is designed to be easy to read and write, with a simple syntax that is closer to human language than to machine code.
+
+Q2. Python is called a dynamically typed language because it allows you to change the type of a variable during runtime. In other words, you don't need to declare the type of a variable before you use it, and you can change the type of a variable as many times as you want during the execution of a program.
+
+Q3. Pros of Python programming language:
+
+Easy to learn and read: Python has a simple and clean syntax that makes it easy to learn and read, even for beginners.
+
+Large community and ecosystem: Python has a large and active community of developers, which means there are many resources available to help you learn and solve problems.
+
+Versatile and flexible: Python can be used for a wide range of applications, from web development to scientific computing to artificial intelligence.
+
+Fast prototyping: Python is ideal for quickly prototyping and testing ideas, thanks to its ease of use and ability to work with many libraries and frameworks.
+
+Cons of Python programming language:
+
+Slow performance: Python is an interpreted language, which means it can be slower than compiled languages like C or C++.
+
+Global Interpreter Lock (GIL): The GIL can limit the performance of multi-threaded Python programs by only allowing one thread to execute Python code at a time.
+
+Weak in mobile computing: Python is not as well-suited for mobile app development as other languages like Java or Swift.
+
+Q4. Python can be used in many domains, including:
+
+Web development: Python can be used to build web applications using frameworks like Django and Flask.
+
+Scientific computing: Python is widely used in scientific computing and data analysis, thanks to libraries like NumPy, Pandas, and Matplotlib.
+
+Machine learning and artificial intelligence: Python is the language of choice for many machine learning and AI applications, thanks to libraries like TensorFlow, Keras, and Scikit-Learn.
+
+Automation and scripting: Python can be used for automating repetitive tasks and for writing scripts for system administration.
+
+Game development: Python can be used to build games using frameworks like Pygame and Panda3D.
+
+Q5. A variable is a name that refers to a value in memory. In Python, you can declare a variable by simply assigning a value to a name, like this:
+
+makefile
+Copy code
+x = 42
+In this example, x is the name of the variable, and 42 is the value it refers to. Python uses dynamic typing, which means you don't need to specify the type of the variable when you declare it. The type of the variable is determined by the value that you assign to it.
+
+Q6. In Python, we can take input from the user using the input() function. Here is an example:
+
+lua
+Copy code
+name = input("What is your name? ")
+print("Hello, " + name + "!")
+In this example, the input() function is used to prompt the user to enter their name. The user's input is then stored in the name variable.
+
+Q7. The default datatype of the value returned by the input() function is a string.
+
+Q8. Type casting is the process of converting a value from one data type to another. In Python, we can use built-in functions like int(), float(), and str() to convert values to different data types. Here is an example:
+
+makefile
+Copy code
+x = "42"
+y = int(x)
+print(y)  # Output: 42
+In this example, the int() function is used to convert the string value "42" to an integer.
+
+Q9. Yes, we can take multiple inputs from the user using a single input() function. To do this, we can separate the inputs using a comma. Here is an example:
+
+bash
+Copy code
+name, age = input("Enter your name and age, separated by a comma: ").split(",")
+print("Your name is " + name + " and you are " + age + " years old.")
+In this example, the user is prompted to enter their name and age, separated by a comma. The split() function is then used to separate the input into two values, which are stored in the name and age variables.
+
+Q10. Keywords are reserved words in Python that have a specific meaning and purpose. These words cannot be used as variable names or other identifiers in a Python program. Examples of Python keywords include if, else, for, while, def, class, and import.
+
+Q11. No, we cannot use keywords as variables in Python because they are reserved for specific programming tasks and have a predefined meaning. Using a keyword as a variable will result in a syntax error.
+
+Q12. Indentation refers to the whitespace at the beginning of a line of code in Python. Indentation is used to group statements together into a block of code. In Python, indentation is used to indicate the scope of code blocks, such as for loops, if statements, and function definitions. The amount of indentation must be consistent throughout a code block.
+
+Q13. In Python, we can output data to the console using the print() function. Here is an example:
+
+bash
+Copy code
+print("Hello, World!")
+In this example, the print() function is used to output the string "Hello, World!" to the console.
+
+Q14. Operators are symbols or keywords in Python that perform specific operations on one or more values. Python supports various types of operators, such as arithmetic operators, comparison operators, logical operators, bitwise operators, and assignment operators. Examples of operators in Python include +, -, *, /, ==, !=, and, or, &, |, and =.
+
+Q15. In Python, the / operator performs floating-point division, while the // operator performs integer division. For example, 5 / 2 would result in 2.5, while 5 // 2 would result in 2. The // operator discards any fractional part of the result and returns the integer quotient.
+
+Q16. Here is the code that will produce the given output:
+
+bash
+Copy code
+print("iNeuron" * 4 + "Neuron")
+Q17. Here is the code to take a number as an input from the user and check if the number is odd or even:
+
+python
+Copy code
+number = int(input("Enter a number: "))
+if number % 2 == 0:
+    print(number, "is even")
+else:
+    print(number, "is odd")
+In this code, the input() function is used to take a number as input from the user. The number is then checked for evenness using the modulo operator %. If the remainder of the number divided by 2 is 0, then the number is even, otherwise it is odd.
+
+Q18. Boolean operators are operators in Python that are used to combine and manipulate Boolean values. The three Boolean operators in Python are and, or, and not. These operators take Boolean operands and return a Boolean result.
+
+Q19. The output of the following expressions will be:
+
+graphql
+Copy code
+1 or 0  # Output: 1
+0 and 0  # Output: 0
+True and False and True  # Output: False
+1 or 0 or 0  # Output: 1
+In the first expression, 1 is a truthy value, so the expression 1 or 0 evaluates to 1. In the second expression, both operands are falsy values, so the expression 0 and 0 evaluates to 0. In the third expression, the and operator evaluates the operands from left to right and returns the first falsy value it encounters, which is False. In the fourth expression, 1 is a truthy value, so the expression 1 or 0 or 0 evaluates to 1.
+
+Q20. Conditional statements in Python are used to execute certain code only if a certain condition is true. The two main conditional statements in Python are if and if-else statements. An if statement checks if a condition is true and executes a block of code if it is. An if-else statement checks if a condition is true and executes a block of code if it is, and a different block of code if it is not. For example:
+
+bash
+Copy code
+x = 10
+if x > 0:
+    print("x is positive")
+if x < 0:
+    print("x is negative")
+else:
+    print("x is zero or positive")
+In this code, the if statement checks if x is greater than 0 and executes the block of code that prints "x is positive" if it is. The if-else statement then checks if x is less than 0 and executes the block of code that prints "x is negative" if it is, or the else block that prints "x is zero or positive" if it is not.
+
+Q21. The 'if', 'elif', and 'else' keywords are used to implement conditional statements in Python. These statements are used to execute different blocks of code depending on whether a specific condition is true or false.
+
+Q22. Here's the code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+
+python
+Copy code
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("I can vote")
+else:
+    print("I can't vote")
+Q23. Here's the code that displays the sum of all the even numbers from the given list.
+
+python
+Copy code
+numbers = [12, 75, 150, 180, 145, 525, 50]
+sum = 0
+for num in numbers:
+    if num % 2 == 0:
+        sum += num
+print("Sum of even numbers in the list:", sum)
+Output:
+
+mathematica
+Copy code
+Sum of even numbers in the list: 392
+Q24. Here's the code to take 3 numbers as an input from the user and display the greatest no as output.
+
+python
+Copy code
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+num3 = int(input("Enter the third number: "))
+
+if num1 > num2 and num1 > num3:
+    print("The greatest number is:", num1)
+elif num2 > num1 and num2 > num3:
+    print("The greatest number is:", num2)
+else:
+    print("The greatest number is:", num3)
+Q25. Here's the program to display only those numbers from a list that satisfy the following conditions:
+
+The number must be divisible by five
+If the number is greater than 150, then skip it and move to the next number
+If the number is greater than 500, then stop the loop
+python
+Copy code
+numbers = [12, 75, 150, 180, 145, 525, 50]
+for num in numbers:
+    if num > 500:
+        break
+    if num % 5 == 0 and num <= 150:
+        print(num)
+Output:
+
+Copy code
+75
+50
